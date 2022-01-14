@@ -19,5 +19,12 @@ $('#btnCargar').click(function() {
 });
 /*JQuery*/
 $(document).ready(function(){
-
+    /*boton ocultar*/
+    $("#btnOcultar").click(function(){
+        $(".pelicula-principal").hide(2000);
+    });
+    /*Texto*/
+    $("#mapa").mouseleave(function(){
+        $(".logotipo").animate({with: "50px"});
+    });
 });
